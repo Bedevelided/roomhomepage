@@ -1,0 +1,29 @@
+section{
+    display: grid;
+    position  : relative;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-content: center;
+    // padding : 45px;
+    // margin-top : 45px;
+    .sub{
+        &__section{
+            img{
+                width : 100%;
+
+            }
+        }
+        &__text{
+            padding : 35px 15px;
+        }
+        &__heading{
+            font-size : 25px;
+            font-weight : 700;
+            margin-bottom : 25px;
+        }
+        &__para{
+            font-size : 12px;
+            margin-bottom : 15px;
+        }
+    }
+}
